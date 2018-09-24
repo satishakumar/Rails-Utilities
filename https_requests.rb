@@ -1,4 +1,4 @@
-def self.get(url, headers)
+    def self.get(url, headers)
 		uri = URI.parse(url)
 
 		http = Net::HTTP.new(uri.host, uri.port)
